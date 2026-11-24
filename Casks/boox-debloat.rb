@@ -6,25 +6,25 @@ cask "boox-debloat" do
     end
   end
 
-  version "0.6.2"
+  version "0.7.0"
 
   on_macos do
     on_arm do
-      sha256 "1fe6654f1e953a98cac29a074898fd55f76e5ed2100805a5f3cc588962da2f82"
+      sha256 "12ed1c8d3354418e137467c6351aa8422091bbcab6064425c45890990356bca3"
       url "https://github.com/RodrickRK/boox-debloat/releases/download/v#{version}/boox-debloat_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c654a9fd78658dd03903c6186c30f16c98e8bfc3054a8cb7210de1485145cb0a"
+      sha256 "a36e43afdd1c00a20514efa47f07a3f8213a7eb25ebadea5226630d0f85b8f56"
       url "https://github.com/RodrickRK/boox-debloat/releases/download/v#{version}/boox-debloat_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "25aeb7de995a716b534ce9b52b620f80d8a392850bc79ca4b171e0960fcb8dce"
+      sha256 "14ecdcfbd27004822d02875495461ea8ca9cc8a7f489255b5cf6c20c5d0eb7c1"
       url "https://github.com/RodrickRK/boox-debloat/releases/download/v#{version}/boox-debloat_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5176f6cd6cc89324308490a896f4e58de33374555dcad784385c95397ed17707"
+      sha256 "b7765d84c026e834dff1c2f18a1ab57839f1e4758999844343cd0d22626cd415"
       url "https://github.com/RodrickRK/boox-debloat/releases/download/v#{version}/boox-debloat_#{version}_linux_amd64.tar.gz"
     end
   end
